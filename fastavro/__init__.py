@@ -59,5 +59,6 @@ schemaless_writer = fastavro.write.schemaless_writer
 is_avro = fastavro.read.is_avro
 validate = fastavro.validation.validate
 parse_schema = fastavro.schema.parse_schema
+zzz = "foo"
 
 __all__ = [n for n in locals().keys() if not n.startswith("_")] + ["__version__"]
